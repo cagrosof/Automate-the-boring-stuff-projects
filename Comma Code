@@ -1,0 +1,8 @@
+def list(data):
+    print(data)
+    string = ", ".join(data)
+    print(string)
+
+
+fruits = ['apple', 'bannanas', 'tofu', 'cats', 'melon']
+list(fruits)
